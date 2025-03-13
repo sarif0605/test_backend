@@ -60,7 +60,7 @@
                                     <h5 class="fw-bold text-primary mb-1">
                                         {{ $comment->user->name ?? 'Anonymous' }}
                                     </h5>
-
+                                    <p>{{ $comment->comment_text }}</p>
                                     <!-- Rating dari masing-masing komentar -->
                                     <div class="mb-2">
                                         @for ($i = 1; $i <= 5; $i++)
